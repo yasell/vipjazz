@@ -1,0 +1,39 @@
+/* SEARCH BIT */
+div.vtemgallery_search{width: 100%;}
+div.vtemgallery_search form{float: right;}
+.vtemgallery_clear{clear:both;}
+
+.gallery{
+	margin: 8px;
+	padding: 0;
+	float: left;
+	position: relative;
+	line-height:normal;
+}
+.gallery a{
+text-decoration:none;
+}
+.gallery img {
+	background: #fff;
+	border: solid 1px #ddd;
+	padding: 4px;
+}
+.gallery a:hover img{border:1px solid #999;}
+.vtem_gallery_nav .pagination{
+padding:10px 0;
+display:block;
+color:#333;
+}
+.vtem_gallery_nav .pagination span,.vtem_gallery_nav .pagination a{
+background:url(../images/pathway.png) left top repeat-x !important;
+border:1px solid #ddd !important;
+padding:2px 5px;
+margin:2px;
+text-decoration:none;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+}
+.vtemgallery_clear .thumbs_div .vt_gallery.gallery a{background-color:transparent !important;}
+.table_vtem_gallery_nav tr,.table_vtem_gallery_nav td.vtem_gallery_nav{border:none !important;}
+.table_vtem_gallery_nav .vtem_gallery_nav li{display:inline-table; margin:0 2px !important; padding:0 !important;}
+.vtem_gallery_nav li a,.vtem_gallery_nav li span{border:1px solid #ddd; background:#fff; padding:2px 6px !important;}

@@ -1,0 +1,21 @@
+{
+  "name": "vipjazz",
+  "version": "0.1.0",
+  "private": true,
+  "description": "vipjazz.by",
+  "author": "RamanYasel",
+
+  "devDependencies": {
+		"gulp": "3.9.1",
+    "browser-sync": "2.17.3",
+    "gulp-autoprefixer": "^3.1.1",
+		"css-mqpacker": "^5.0.1",
+		"gulp-plumber": "1.1.0"
+  },
+  "scripts": {
+    "start": "gulp serve"
+  },
+  "engines": {
+    "node": "^6.5.0"
+  }
+}

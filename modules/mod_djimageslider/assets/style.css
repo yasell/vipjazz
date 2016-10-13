@@ -1,0 +1,56 @@
+ .slide-desc-bg {
+background : #000b18;
+opacity : 0.4;
+}
+.slide-desc-text {
+color : #fff;
+padding : 10px;
+text-align : left;
+}
+.slide-desc-text .slide-title {
+font-size: calc(112.5% + 0.5vw);
+color : #eeee88;
+margin-bottom : 5px;
+}
+.slide-desc-text .slide-title a {
+color : #eeee88;
+}
+.djslider .navigation-container a {
+outline : none;
+}
+.djslider-loader {
+position: relative;
+}
+.djslider li {
+text-align : center;
+}
+span.load-button {
+width : 12px;
+height : 12px;
+display : inline-block;
+background : #222;
+border : #fff solid 1px;
+box-shadow : 0 0 2px #fff;
+margin : 0 3px;
+cursor : pointer;
+border-radius : 7px;
+opacity : 0.4000000059604644775390625;
+}
+span.load-button-active {
+opacity : 0.800000011920928955078125;
+}
+
+/*** image on the left and 100% height of description area ***/
+/*
+#slider45 li {
+	text-align: left;
+}
+#slider45 .slide-desc,
+#slider45 .slide-desc-in {
+	height: 100%;
+}
+#slider45 .slide-desc-bg {
+	opacity: 1;
+	filter: alpha(opacity = 100);
+}
+*/

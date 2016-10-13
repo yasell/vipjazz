@@ -1,0 +1,81 @@
+/*
+-----------------------------------------------
+File:    style.css
+Author:  Denys Nosov at http://www.denysdesign.com
+Version: 02.01.2012
+
+License: GNU General Public License version 2 or later
+----------------------------------------------- */
+
+.juimage {
+  border: #ccc 1px solid;
+  padding: 1px;
+}
+.juimg-category {
+margin-bottom: 20px;
+}
+.juimg-featured {
+margin-bottom: 20px;
+}
+.juimg-article {
+    margin-bottom: 20px;
+}
+
+.juleft {
+  float: left;
+  margin: 0;
+}
+
+.juright {
+  float: right;
+  margin: 0 0 20px 20px;
+}
+
+/* Gallery */
+.juphotogallery {
+	clear: both;
+	padding: 10px 0 6px 10px;
+	margin: 10px 0;
+	background: #f3f3f3;
+	overflow: hidden;
+}
+	.juphotogallery h3 {
+		margin: 0 0 6px 0!important;
+		padding: 0!important;
+		font-size: 160%!important;
+	}
+	.juphotogallery img.jugallery {
+		float: left;
+		margin: 0 12px 12px 0;
+		padding: 3px;
+		border: 1px solid #ccc;
+		background: #fff;
+	}
+
+/* Example CSS class (css_class) from tag {gallery folder_path|title|css_class} */
+.blue {
+	background: #edf7fe;
+	border: 0 none;
+}
+	.blue h3 {
+		color: #4682b4!important;
+	}
+
+	/* meedia */
+	@media (max-width: 480px) {
+		.article-info + p a {
+		display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+		}
+		.article-info + p a .juleft {
+			float: none!important;
+			margin: 0 0 20px 0!important;
+		}
+	}

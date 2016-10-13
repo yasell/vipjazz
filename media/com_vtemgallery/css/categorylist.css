@@ -1,0 +1,124 @@
+a,a:link,a:visibe{outline:none !important;}
+/*//////////////Category style1///////////////////*/
+
+#cat_wrapper.vtem_category_style1 > div{
+width: 225px !important;
+}
+.vtem_category_style1 .vtem_category_bg{
+background:url(../images/category_bg.png) left top no-repeat;
+position:relative;
+width:175px;
+height:140px;
+padding:24px 0 0 34px;
+margin:5px 20px 10px 5px;
+}
+.vtem_category_style1 .vtem_category_over{
+ background:url(../images/category_bg_over.png) left top no-repeat;
+ display: block;
+    height: 38px;
+    left: -11px;
+    position: absolute;
+    top: 109px;
+    width: 196px;
+}
+.vtem_category_style1 .vtemimg{
+background: none repeat scroll 0 0 #fff;
+    border: 1px solid #74ac9e;
+    height: 97px;
+    margin-left: -8px;
+    margin-top: 7px;
+    padding: 3px;
+    width: 122px;
+}
+.vtem_category_style1 .vtem_count{
+background:#fff;
+position:absolute;
+top:1px;
+right:40px;
+font-weight:bold;
+font-size:12px;
+padding:2px;
+width:20px;
+text-align:center;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+.vtem_category_style1 .vtem_category_title{
+width:195px;
+text-align:center !important;
+display:block;
+font-size:14px;
+line-height: 18px;
+}
+.vtem_category_style1 .vtem_category_title a{text-decoration:none;outline:none !important;}
+.vtem_category_style1 .vtem_category_title a:hover{text-decoration:underline;}
+
+/*//////////////Category style2 ////////////////*/
+.vtem_category_style2 .vtem_category_bg{
+background:url(../images/category_bg2.png) left top no-repeat;
+_background:url(../images/category_bg2.gif) left top no-repeat;
+position:relative;
+width:150px;
+height:110px;
+padding:6px 0 0 5px;
+margin:5px 20px 0px 5px;
+}
+.vtem_category_style2 .vtemimg{
+background:#fff;
+padding:3px;
+border:1px solid #ddd;
+width:135px;
+height:90px;
+}
+.vtem_category_style2 .vtem_count{
+background:#fff;
+position:absolute;
+top:1px;
+right:20px;
+font-weight:bold;
+font-size:12px;
+padding:2px;
+width:20px;
+text-align:center;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+.vtem_category_style2 .vtem_category_title{
+width:135px;
+text-align:center !important;
+display:block;
+margin-left:10px;
+padding:5px;
+font-style:italic;
+font-size:14px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 5px;
+border:1px solid #eee;
+background:#fff url(../images/pathway.png) left bottom repeat-x;
+position:relative;
+}
+.vtem_category_style2 .vtem_category_title a{color:#333 !important; text-decoration:none; outline:none;}
+.vtem_category_style2 .vtem_category_title a:hover{text-decoration:underline;}
+/*///////////////End style//////////////////*/
+
+.vtem_cat_description{
+text-align:left;
+margin:0 5px;
+}
+.vtemgallery_categoryChildren a,.vtemgallery_categoryparent a{background-color:transparent !important;}
+.vtemgallery_categoryChildren{margin:5px 0 20px 0; padding:0 0 20px 0; border-bottom:1px solid #eee;}
+.clr{clear:both;}
+.clearfix:after,.vtemgallery_clear:after{
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix,.vtemgallery_clear{ display: inline-block; }
+* html .clearfix,* html .vtemgallery_clear{ height: 1%; }
+.clearfix,.vtemgallery_clear{ display: block; }

@@ -1,0 +1,200 @@
+	/* Styles for DJ Image Slider with module id 133 */
+	#djslider-loader133 {
+		margin: 0 auto;
+		position: relative;
+	}
+
+	#djslider133 {
+		margin: 0 auto;
+		position: relative;
+		height: 220px;
+		width: 898px;
+		max-width: 898px;
+	}
+	#slider-container133 {
+		position: absolute;
+		overflow:hidden;
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 100%;
+	}
+	#djslider133 ul#slider133 {
+		margin: 0 !important;
+		padding: 0 !important;
+		border: 0 !important;
+	}
+	#djslider133 ul#slider133 li {
+		list-style: none outside !important;
+		float: left;
+		margin: 0 !important;
+		border: 0 !important;
+		padding: 0 47px 0px 0 !important;
+		position: relative;
+		height: 220px;
+		width: 142px;
+		background: none;
+		overflow: hidden;
+		box-sizing: content-box;
+	}
+	#slider133 li img {
+		max-width: 100%;
+		height: auto;
+		border: 0 !important;
+		margin: 0 !important;
+	}
+	#slider133 li a img, #slider133 li a:hover img {
+		border: 0 !important;
+	}
+
+	/* Slide description area */
+	#slider133 .slide-desc {
+		position: absolute;
+		bottom: -15px;
+		left: 0;
+		width: 100%;
+	}
+	#slider133 .slide-desc-in {
+		position: relative;
+		margin: 0 47px 0px 0 !important;
+	}
+	#slider133 .slide-desc-bg {
+		position:absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	#slider133 .slide-desc-text {
+		position: relative;
+	}
+	#slider133 .slide-desc-text h3 {
+		display: block !important;
+	}
+
+	/* Navigation buttons */
+	#navigation133 {
+		position: relative;
+		top: 38.636363636364%;
+		margin: 0 5px;
+		text-align: center !important;
+	}
+
+	#prev133 {
+		cursor: pointer;
+		display: block;
+		position: absolute;
+		left: 0;
+	}
+	#next133 {
+		cursor: pointer;
+		display: block;
+		position: absolute;
+		right: 0;
+	}
+
+#tabsid96{width:90%; max-width:900px;}
+#tabsid96.vtemtabs-custom .vtemtabsnav li a,.vtemtabs-custom .vtemtabsnav li a:hover,.vtemtabs-custom .vtemtabsnav li a:focus{background-color:#333333 !important;color:#cccccc !important;}
+#tabsid96.vtemtabs-custom .vtemtabs-nav-top li.active-tab a,.vtemtabs-custom .vtemtabs-panel{background-color:#cc6600 !important;color:#ffffff !important;}.vtemtabs-item img{float:left}
+
+	/* Styles for DJ Image Slider with module id 115 */
+	#djslider-loader115 {
+		margin: 0 auto;
+		position: relative;
+	}
+
+
+	#djslider115 {
+		margin: 0 auto;
+		position: relative;
+		height: 800px;
+		width: 1900px;
+		max-width: 1900px;
+		/*min-height: 240px!important;*/
+	}
+	#slider-container115 {
+		position: absolute;
+		overflow:hidden;
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 100%;
+	}
+	#djslider115 ul#slider115 {
+		margin: 0 !important;
+		padding: 0 !important;
+		border: 0 !important;
+	}
+	#djslider115 ul#slider115 li {
+		list-style: none outside !important;
+		float: left;
+		margin: 0 !important;
+		border: 0 !important;
+		padding: 0 0px 0px 0 !important;
+		position: relative;
+		height: 800px;
+		width: 1900px;
+		background: none;
+		overflow: hidden;
+	}
+	#slider115 li img {
+		max-width: 100%;
+		height: auto;
+		border: 0 !important;
+		margin: 0 !important;
+	}
+	#slider115 li a img, #slider115 li a:hover img {
+		border: 0 !important;
+	}
+
+	/* Slide description area */
+	#slider115 .slide-desc {
+		position: absolute;
+		bottom: 0%;
+		left: 0%;
+		width: 26.315789473684%;
+	}
+	#slider115 .slide-desc-in {
+		position: relative;
+		margin: 0 0px 0px 0 !important;
+	}
+	#slider115 .slide-desc-bg {
+		position:absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	#slider115 .slide-desc-text {
+		position: relative;
+	}
+	#slider115 .slide-desc-text h3 {
+		display: block !important;
+	}
+
+	/* Navigation buttons */
+	#navigation115 {
+		position: relative;
+		top: 43.75%;
+		margin: 0 5px;
+		text-align: center !important;
+	}
+
+	#prev115 {
+		cursor: pointer;
+		display: block;
+		position: absolute;
+		left: 0;
+	}
+	#next115 {
+		cursor: pointer;
+		display: block;
+		position: absolute;
+		right: 0;
+	}
+
+	#cust-navigation115 {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
